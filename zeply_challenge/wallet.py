@@ -2,8 +2,8 @@ import abc
 import typing
 from functools import lru_cache
 
-import eth_keys.datatypes
-import cryptos
+import eth_keys.datatypes  # type: ignore
+import cryptos  # type: ignore
 
 from . import settings
 from .models import Address, Coin
