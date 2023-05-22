@@ -1,22 +1,23 @@
 ![Tests](https://github.com/nikicat/zeply-challenge/actions/workflows/test.yaml/badge.svg)
 
-== Zeply Challenge
-
+Zeply Challenge
+==
 This project implements Zeply challenge.
 
-== Requirements
-
+Requirements
+==
  - poetry
 
-== Installation
-
+Installation
+==
 ```
 git clone git+https://github.com/nikicat/zeply-challenge
 cd zeply-challenge
-poetry install .
+poetry install
 ```
 
-== Usage
+Usage
+==
 ```
 zeply-challenge-cli create-tables
 zeply-challenge-cli serve
